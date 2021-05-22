@@ -79,6 +79,8 @@ func retrieve(baseDir, gitDir, oid string, size int64, a *api.Action, writer, er
 	// If user wants to separate, can just use a different folder
 	filePath := storagePath(baseDir, oid)
 	stat, err := os.Stat(filePath)
+	errWriter.WriteString("FIZZ\n")
+	errWriter.Flush()
 	if err != nil {
         filePath = filePath + ".tmp"
 	    stat, err = os.Stat(filePath)
