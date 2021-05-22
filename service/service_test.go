@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/sinbad/lfs-folderstore/api"
+	"github.com/mokchira/lfs-folderstore/api"
 	"github.com/stretchr/testify/assert"
 )
 

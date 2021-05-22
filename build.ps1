@@ -27,7 +27,7 @@ function Zip-Release {
     Move-Item $tempdest $destFile
 }
 
-$package = "github.com/sinbad/lfs-folderstore"
+$package = "github.com/mokchira/lfs-folderstore"
 $archivename = "lfs-folderstore"
 
 # Check dirty repo

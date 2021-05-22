@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/sinbad/lfs-folderstore/api"
-	"github.com/sinbad/lfs-folderstore/util"
+	"github.com/mokchira/lfs-folderstore/api"
+	"github.com/mokchira/lfs-folderstore/util"
 )
 
 // Serve starts the protocol server

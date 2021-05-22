@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sinbad/lfs-folderstore/util"
+	"github.com/mokchira/lfs-folderstore/util"
 )
 
 // Header struct

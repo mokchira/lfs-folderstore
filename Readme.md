@@ -2,8 +2,8 @@
 
 [![Build status][1]][2]
 
-[1]: https://travis-ci.org/sinbad/lfs-folderstore.svg?branch=master
-[2]: https://travis-ci.org/sinbad/lfs-folderstore
+[1]: https://travis-ci.org/mokchira/lfs-folderstore.svg?branch=master
+[2]: https://travis-ci.org/mokchira/lfs-folderstore
 
 ## What is it?
 
@@ -43,7 +43,7 @@ with 2.5.2 and 2.6.0 (and with Git 2.19.1).
 You will need `lfs-folderstore[.exe]` to be on your system path somewhere.
 
 Either download and extract the [latest
-release](https://github.com/sinbad/lfs-folderstore/releases), or build it from
+release](https://github.com/mokchira/lfs-folderstore/releases), or build it from
 source using the standard `go build`.
 
 ### Configure a fresh repo
