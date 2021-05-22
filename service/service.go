@@ -19,7 +19,7 @@ func Serve(baseDir string, stdin io.Reader, stdout, stderr io.Writer) {
 	scanner := bufio.NewScanner(stdin)
 	writer := bufio.NewWriter(stdout)
 	errWriter := bufio.NewWriter(stderr)
-	util.WriteToStderr(fmt.Sprintf("FIZZ\n", errWriter)
+	util.WriteToStderr(fmt.Sprintf("FIZZ\n"), errWriter)
 
 	gitDir, err := gitDir()
 	if err != nil {
