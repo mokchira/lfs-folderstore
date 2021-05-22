@@ -25,7 +25,7 @@ import (
 	"os"
 	"strings"
 
-    "github.com/mokchira/lfs-folderstore/service"
+	"github.com/mokchira/lfs-folderstore/service"
 	"github.com/spf13/cobra"
 )
 

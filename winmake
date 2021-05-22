@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+go build
+mv main.exe ~/bin/lfs-folderstore.exe
