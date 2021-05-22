@@ -1,8 +1,7 @@
 package main
 
-import "github.com/sinbad/lfs-folderstore/cmd"
+import "github.com/mokchira/lfs-folderstore/cmd"
 
 func main() {
-
 	cmd.Execute()
 }

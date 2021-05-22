@@ -80,8 +80,12 @@ func retrieve(baseDir, gitDir, oid string, size int64, a *api.Action, writer, er
 	filePath := storagePath(baseDir, oid)
 	stat, err := os.Stat(filePath)
 	if err != nil {
-		api.SendTransferError(oid, 3, fmt.Sprintf("Cannot stat %q: %v", filePath, err), writer, errWriter)
-		return
+        filePath = filePath + ".tmp"
+	    stat, err = os.Stat(filePath)
+	    if err != nil {
+            api.SendTransferError(oid, 3, fmt.Sprintf("Cannot stat %q: %v", filePath, err), writer, errWriter)
+            return
+        }
 	}
 
 	if !stat.Mode().IsRegular() {
